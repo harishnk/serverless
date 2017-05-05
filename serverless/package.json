@@ -1,0 +1,31 @@
+{
+  "name": "serverless",
+  "private": true,
+  "version": "1.0.0",
+  "description": "serverless",
+  "main": "serverless.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "request": ">=2.60.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node serverless.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harishnk/simplewebbackend.git"
+  },
+  "keywords": [
+    "image",
+    "captioning"
+  ],
+  "author": "Harish N. Kamath",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/harishnk/simplewebbackend/issues"
+  },
+  "homepage": "https://github.com/harishnk/simplewebbackend#readme"
+}

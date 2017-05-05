@@ -1,0 +1,10 @@
+serverless:
+  build: ./serverless
+  command: "node serverless.js"
+  container_name: serverless
+  ports:
+    - "8080:80"
+  volumes:
+    - ./serverless:/code
+  labels:
+    NAME: "serverless"
